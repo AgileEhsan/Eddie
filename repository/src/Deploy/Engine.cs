@@ -1099,7 +1099,7 @@ namespace Eddie.Deploy
 			string pathCompiler = "";
 			if (Environment.OSVersion.VersionString.IndexOf("Windows") != -1)
 			{
-				pathCompiler = "c:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\MSBuild\\15.0\\Bin\\msbuild.exe";
+				pathCompiler = "c:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\MSBuild\\Current\\Bin\\msbuild.exe";
 			}
 			else
 			{
